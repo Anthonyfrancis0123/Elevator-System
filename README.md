@@ -23,10 +23,10 @@ OUTPUTS
 - Ebuz - Emergency buzzer
 
 TIMERS
--TON0 to TON4 - Motor1 running time
--TON5 - Doors openinng time
--TON6 - Open doors waiting time
--TON7 and TON8 - Doors closing time
+- TON0 to TON4 - Motor1 running time
+- TON5 - Doors openinng time
+- TON6 - Open doors waiting time
+- TON7 and TON8 - Doors closing time
 
 PROGRAM BEHAVIOUR
 The logic defines:
