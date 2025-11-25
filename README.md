@@ -9,7 +9,7 @@ This project contains the device configuration, PLC logic (Structured text and L
 - Version 3.5.19.70
 - Windows based software
 
-## PLC Logic (Main Program- PLC_PRG
+## PLC Logic (Main Program- PLC_PRG)
 INPUTS (Buttons)
 - MainStart - Main elevator switch
 - C0, C1, C2, C3 - Floor call buttons
