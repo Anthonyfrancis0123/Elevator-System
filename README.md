@@ -30,11 +30,15 @@ TIMERS
 
 PROGRAM BEHAVIOUR
 The logic defines:
-- How long the elevator opens doors (1 second)
-- Door traveling time from one floor to another (8 seconds each)
-- Door waiting time once at a floor (6 seconds)
-- Buttons to press for floor selection
-- Emergency button to press which shuts down the elevator completely
-- Emergency buzzer which activates once emergency button is pressed
+- The system has four floors: Ground floor (GL), Level 1 (L1), Level 2 (L2) and Level 3 (L3)
+- It is made of one H-bridge-controlled DC motor that can move up or down (Motor1)
+- An additional H-bridge-controlled DC motor for opening and closing of the elevator door (Motor2)
+- The elevator has four commands buttons (C0, C1, C2 and C4) for each floor
+- Command buttons are normally open buttons configured in LOW mode
+- Only one button can be pressed at a time.
+- When a floor button is pressed, the motor runs for 6 seconds to open the door and then closes.
+- The elevator has four level sensors to detect whether the elevator has reached a specific floor, a HIGH-level logic output is triggered otherwise, the level remains LOW.
+- Each motor run per floor takes 8 seconds whether it is an upward or downward motion.
+- The motor runs forward or reverse depending on which floor is pressed and on which it is currently.
 
 
