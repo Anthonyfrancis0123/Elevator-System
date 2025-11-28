@@ -1,0 +1,34 @@
+PROGRAM PLC_PRG
+VAR
+	MainStart: BOOL;
+	C0: BOOL;
+	C1: BOOL;
+	C2: BOOL;
+	C3: BOOL;
+	Motor1: BOOL;
+	TON_0: TON;
+	TON_4: TON;
+	TON_3: TON;
+	TON_2: TON;
+	ElapsedTime: TIME;
+	ElapsedTime1: TIME;
+	ElapsedTime2: TIME;
+	Elapsedtime3: TIME;
+	GL: BOOL;
+	L1: BOOL;
+	L2: BOOL;
+	L3: BOOL;
+	Motor2: BOOL;
+	TON_1: TON;
+	ElapsedTime4: TIME;
+	CloseDoor: BOOL;
+	EButton: BOOL;
+	EBuz: BOOL;
+	TON_5: TON;
+	ElapsedTime5: TIME;
+	TON_6: TON;
+	ElapsedTime6: TIME;
+	OpenDoor: BOOL;
+	TON_7: TON;
+	ElapsedTime7: TIME;
+END_VAR
