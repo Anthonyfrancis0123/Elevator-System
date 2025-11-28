@@ -41,4 +41,7 @@ The logic defines:
 - Each motor run per floor takes 8 seconds whether it is an upward or downward motion.
 - The motor runs forward or reverse depending on which floor is pressed and on which it is currently.
 
+##Wiring diagram
+
+<img width="1123" height="704" alt="image" src="https://github.com/user-attachments/assets/eec2decc-10d9-457f-91b9-51b3da6c413c" />
 
